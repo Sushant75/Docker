@@ -28,12 +28,16 @@
 <br>
 <p>Use this command to install docker on ubuntu:</p>
 <br>
+
 **sudo apt-get install docker.io -y**
+
 <br>
 <p>Thereafter use these commands to add your user to docker group:</p>
 <br>
+
 **sudo usermod -aG docker ${USER}**
 **sudo su ${USER}**
+
 <br>
 
 ## Namespacing
